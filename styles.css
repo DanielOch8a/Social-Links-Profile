@@ -1,6 +1,8 @@
 body {
   background-color: hsl(0, 0%, 8%);
+  font-size: 14px;
 }
+
 .card {
   font-family: "Intern";
   margin: 5% auto;
@@ -10,6 +12,25 @@ body {
   color: white;
   background-color: hsl(0, 0%, 12%);
   box-sizing: border-box;
+}
+
+.profile-photo {
+  width: 150px;
+  border-radius: 50%;
+  margin: 30px auto;
+  display: block;
+}
+
+.general-information > div {
+  text-align: center;
+}
+
+.ubication {
+  color: hsl(75, 94%, 57%);
+}
+
+.description {
+  margin: 20px auto;
 }
 
 .button {
