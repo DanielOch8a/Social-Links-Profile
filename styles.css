@@ -1,10 +1,10 @@
 body {
   background-color: hsl(0, 0%, 8%);
   font-size: 14px;
+  font-family: "Inter";
 }
 
 .card {
-  font-family: "Inter";
   margin: 5% auto;
   border: 2px solid black;
   width: 400px;
@@ -60,4 +60,13 @@ body {
 a {
   text-decoration: none;
   color: white;
+}
+
+.attribution {
+  color: white;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
